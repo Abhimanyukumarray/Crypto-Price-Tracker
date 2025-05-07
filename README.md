@@ -1,12 +1,34 @@
-# React + Vite
+# Crypto Price Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, responsive cryptocurrency tracking dashboard built with **React** and **Redux Toolkit**. This application provides real-time simulated updates for major cryptocurrencies, showing detailed metrics including price, market capitalization, trading volume, and performance trends.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Live Data Simulation**: Prices and volumes are updated every 1.5 seconds to mimic real-time market dynamics.
+- Key Market Metrics:-
+  - Current price
+  - 1h / 24h / 7d percentage changes
+  - Market cap
+  - 24h trading volume
+  - Circulating and max supply
+- Visual Trends: Includes 7-day sparkline charts for visual performance insight.
+- Responsive Design: Fully optimized for mobile, tablet, and desktop screens.
+- Lightweight UI: Clean, intuitive table layout for fast readability and user interaction.
 
-## Expanding the ESLint configuration
+ # Technologies Used
+- React:– For building the user interface
+- Redux Toolkit:– For state management and price updates
+- CSS:– Custom styles with media queries for responsive behavior
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Getting Started
+To run this project locally:
+# Clone the repository
+git clone https://github.com/your-username/crypto-price-tracker.git
+cd crypto-price-tracker
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
